@@ -1,0 +1,8 @@
+{
+  "spark.app.name": "My Spark Application",
+  "spark.master": "local[12]",
+  "spark.executor.memory": "2g",
+  "spark.driver.memory": "1g",
+  "spark.executor.cores": "4",
+  "spark.driver.cores": "2"
+}

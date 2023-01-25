@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tools.iml" filepath="$PROJECT_DIR$/.idea/modules/Tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ironsolver-poc.iml" filepath="$PROJECT_DIR$/.idea/modules/ironsolver-poc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ironsolver-poc-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ironsolver-poc-build.iml" />
+    </modules>
+  </component>
+</project>

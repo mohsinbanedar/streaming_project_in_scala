@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "Iceberg-Table-Schema",
+  "namespace": "iceberg.schema.in.avro",
+  "fields": [
+    {"name": "eventId","type": ["int", "null"]},
+    {"name": "eventTimestamp","type": ["long", "null"]},
+    {"name": "categories","type": ["string", "null"]},
+    {"name": "clientParams_connectionType","type": ["string", "null"]},
+    {"name": "demandType","type": ["string", "null"]},
+    {"name": "buyerType","type": ["string", "null"]},
+    {"name": "activityType","type": ["string", "null"]}
+            ],
+}
+
+
+
+

@@ -1,0 +1,97 @@
+
+
+import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.types._
+
+object Schema {
+  val dataStructType: StructType = new StructType()
+    .add("abActive", StringType)
+    .add("abt", StringType)
+    .add("adUnit", IntegerType)
+    .add("applicationId", IntegerType)
+    .add("auctionEndTimestamp", IntegerType)
+    .add("auctionId", StringType)
+    .add("auctionStartTimestamp", IntegerType)
+    .add("auctionType", StringType)
+    .add("bidPriceRange_lowerBound", DoubleType)
+    .add("bidPriceRange_upperBound", DoubleType)
+    .add("bidRequestTimestamp", StringType)
+    .add("bidResponseTimestamp", StringType)
+    .add("bidType", StringType)
+    .add("blockedRequest", StringType)
+    .add("clearance", DoubleType)
+    .add("clientParams_advId", StringType)
+    .add("clientParams_advIdType", StringType)
+    .add("clientParams_appVersion", StringType)
+    .add("clientParams_applicationUserId", StringType)
+    .add("clientParams_auid", StringType)
+    .add("clientParams_browserUserAgent", StringType)
+    .add("clientParams_bundleId", StringType)
+    .add("clientParams_clientTimestamp", IntegerType)
+    .add("clientParams_connectionType", StringType)
+    .add("clientParams_country", StringType)
+    .add("clientParams_deviceHeight", IntegerType)
+    .add("clientParams_deviceLang", StringType)
+    .add("clientParams_deviceMake", StringType)
+    .add("clientParams_deviceModel", StringType)
+    .add("clientParams_deviceOS", StringType)
+    .add("clientParams_deviceOSVersion", StringType)
+    .add("clientParams_deviceType", StringType)
+    .add("clientParams_deviceWidth", IntegerType)
+    .add("clientParams_fs", IntegerType)
+    .add("clientParams_isLimitAdTrackingEnabled", StringType)
+    .add("clientParams_mobileCarrier", StringType)
+    .add("clientParams_secure", IntegerType)
+    .add("companyKey", StringType)
+    .add("dynamicDemandSourceType", IntegerType)
+    .add("eventId", IntegerType)
+    .add("eventTimestamp", StringType)
+    .add("instanceId", IntegerType)
+    .add("instanceLevelConfiguration", StringType)
+    .add("instanceType", IntegerType)
+    .add("ip", StringType)
+    .add("isAuctionWinner", StringType)
+    .add("isCoppa", StringType)
+    .add("isMarketplace", StringType)
+    .add("isMarketplaceDatasource", StringType)
+    .add("isTest", StringType)
+    .add("numberOfBidRequests", IntegerType)
+    .add("numberOfBidResponses", IntegerType)
+    .add("price", DoubleType)
+    .add("provider", StringType)
+    .add("providerId", IntegerType)
+    .add("publisherId", IntegerType)
+    .add("rank", IntegerType)
+    .add("sdkVersion", StringType)
+    .add("sessionDepth", IntegerType)
+    .add("sessionId", StringType)
+    .add("state", StringType)
+    .add("time", StringType)
+    .add("userAgent", StringType)
+    .add("clientParams_consent", StringType)
+    .add("isGdpr", StringType)
+    .add("activityType", StringType)
+    .add("advertiserDomain", StringType)
+    .add("brandsDspName", StringType)
+    .add("brandsGrossBid", DoubleType)
+    .add("brandsLatency", IntegerType)
+    .add("brandsSellerVersion", StringType)
+    .add("brandsTemplateType", StringType)
+    .add("buyerType", StringType)
+    .add("categories", StringType)
+    .add("connection", StringType)
+    .add("demandBundle", StringType)
+    .add("demandCategory", StringType)
+    .add("demandType", StringType)
+
+
+}
+
+
+
+
+
+
+
+
